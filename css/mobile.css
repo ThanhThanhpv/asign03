@@ -1,0 +1,103 @@
+@media only screen and (max-width: 768px) {
+  #nav-bar .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+  .dieu-huong,
+  .anh-ca-nhan {
+    display: none;
+  }
+
+  #about .container {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  #target,
+  #personal-info {
+    width: 270px;
+    padding: 20px;
+  }
+
+  .info,
+  #personal-info h1 {
+    padding: 0;
+  }
+
+  #job-info .container {
+      display: block;
+      width: 35%;
+      margin-left: 50px;
+      padding: 0;
+      
+  }
+
+
+  .diem-manh {
+    margin-bottom: 20px;
+  }
+
+  /* chứng chỉ */
+  .anh {
+    width: 80%;
+    height: auto;
+  }
+
+  .duong-ke {
+   display: block;
+  }
+
+  .chung-chi {
+   display: block;
+   }
+
+   #certificate h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .ccweb {
+    width: 80%;
+    border-bottom: 1px solid #e0d1ae;
+  }
+
+  .gach-ben-trai,.duong-ke {
+    border: none;
+  }
+
+  
+
+/* dự án */
+   #project .du-an {
+    display: block;
+   }
+
+   #project h1 {
+    margin: 0;
+   }
+
+   #project .container {
+    padding: 0;
+
+   }
+
+   .abc {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  img.chu-de {
+    width: 100%;
+  }
+
+.developer span {
+    margin-bottom: 10px;
+    display: block;
+   }
+}
